@@ -1,0 +1,1 @@
+pyinstaller --icon=res/icon.ico --noconsole --name=移动的艺术 Main.py
