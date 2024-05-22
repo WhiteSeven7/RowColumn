@@ -9,7 +9,7 @@ from Level import Level
 class Game:
     def __init__(self) -> None:
         pygame.init()
-        pygame.display.set_caption("移动的艺术")
+        pygame.display.set_caption("填圈")
         pygame.display.set_icon(pygame.image.load("res/icon.png"))
         self.fullscreen = False
         self.display = pygame.display.set_mode(display_size, pygame.SRCALPHA)

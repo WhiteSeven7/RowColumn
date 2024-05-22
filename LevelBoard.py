@@ -184,9 +184,9 @@ class LevelBoard:
             if column_sum < num:
                 color = dark_gray
             elif column_sum == num:
-                color = "#22B14C"
+                color = green
             else:
-                color = "#ED1C24"
+                color = red
             num_image = self.font.render(str(column_sum), True, color)
             w, h = num_image.get_size()
             x = self.left + column_index * self.size + (self.size - w) // 2
@@ -199,9 +199,9 @@ class LevelBoard:
             if row_sum < num:
                 color = dark_gray
             elif row_sum == num:
-                color = "#22B14C"
+                color = green
             else:
-                color = "#ED1C24"
+                color = red
             num_image = self.font.render(str(row_sum), True, color)
             w, h = num_image.get_size()
             x = self.left + self.column_num * self.size + (self.size - w) // 2

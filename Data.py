@@ -8,6 +8,8 @@ dark_gray = "#555555"
 white_gray = "#999999"
 bg_color = "#F5F1B5"
 blue = "#1E659E"
+red = "#ED1C24"
+green = "#22B14C"
 
 p_2_full = 10
 p_4_full = 10

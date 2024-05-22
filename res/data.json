@@ -1,10 +1,13 @@
 {
-    "row_num": 8,
-    "column_num": 8,
-    "p_4": 5,
-    "p_2": 5,
-    "p_n1": 3,
-    "difficulty": 3,
-    "gradeup_list": [],
-    "cheating": true
+    "row_num": 4,
+    "column_num": 4,
+    "p_4": 0,
+    "p_2": 0,
+    "p_n1": 0,
+    "difficulty": 0,
+    "gradeup_list": [
+        "row_num",
+        "column_num"
+    ],
+    "cheating": false
 }
