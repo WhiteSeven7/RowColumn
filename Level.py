@@ -231,7 +231,7 @@ class Level:
         return self
     
     def Gradeup(self) -> "Level":
-        return self.Gradeup_().Gradeup_()
+        return self.Gradeup_().Gradeup_().Gradeup_()
 
     def do_when_change_size(self, win_size):
         # 位置
